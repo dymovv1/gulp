@@ -7,7 +7,7 @@ const srcFolder = './src';
  export const path = {
     build: {
         html : `${buildFolder}/`,
-        files : `${buildFolder}/files/`,
+        files : `${buildFolder}/files/`
     },
     src: {
         html : `${srcFolder}/*.html`,
@@ -21,5 +21,5 @@ const srcFolder = './src';
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     rootFolder: rootFolder,
-    ftp: ''
+    ftp: ``
 };
